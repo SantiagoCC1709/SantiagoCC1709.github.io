@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/bg-header.png");
+    background-size: cover;
+}
+header nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+
+}
+
+nav ul a{
+    color: #ffff;
+    font-size: 24px; 
+    padding: 8px 12px;
+    margin: 0 20px;   
+    text-decoration: none;
+}
+
+#hero{
+    text-align: center;
+    padding-top: 200px;
+}
+
+#hero h2{
+    font-size: 50px;
+    color: yellow;
+    margin-top: 20px;
+}
+
+#hero h1{
+    font-size: 30px;
+    color: #ffff;
+}
+
+#hero button{
+    font-size: 30px;
+    padding: 12px 30px;
+    background-color: yellow;
+    color: gray;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 140px;
+
+}
+
+#planes{
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#planes h2{
+    font-size: 50px;
+    margin-bottom: 60px;
+
+}
+
+#planes p{
+    font-size: 22px;
+}
+
+#planes .fila{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+#planes .col-plan{
+    position: relative;
+    z-index: 1;
+}
+#planes .col-plan h3{
+  position: absolute; 
+  z-index: 3;
+  top: 110px;
+  left: 0;
+  right: 0;
+  color: yellow;
+}
+
+#destinos{
+    width: 100%;
+    text-align: center;
+    background: url(../img/bg-destinos.png);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+#destinos h2{
+    color: yellow;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+#destinos .fila{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+#destinos h3{
+    color: #ffff;
+    font-size: 32px;
+
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
